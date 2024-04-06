@@ -17,7 +17,7 @@ class AnimalAdapter : ListAdapter<Animal, AnimalAdapter.AnimalViewHolder>(DogBre
 
         override fun areContentsTheSame(oldItem: Animal, newItem: Animal): Boolean {
             return oldItem == newItem
-        }
+        }//5554
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnimalViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
